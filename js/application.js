@@ -1,37 +1,3 @@
-//define maximum value given by a computer
-var inf = 65535;
-
-//Define a distance matrix for each Node
-//Virtual  : 	1,   2,    3,   4,   5,   6,   7,   8,   9,   10
-//----------------------------------------------------------------
-//Original :  	0,   1,    2,   3,   4,   5,   6,   7,   8,    9
-/*var A = Array(
-				[0,   2,   inf, inf, inf, inf, inf, 3, 	 inf],
-				[2,   0,   4,   inf, inf, inf, inf, 3, 	 2],
-				[inf, 4,   0,   3,   inf, inf, inf, inf, inf],
-				[inf, inf, 3,	0,	 5,	  2,   inf, inf, 3	],
-				[inf, inf, inf, 5,	 0,	  4,   inf, inf, inf],
-				[inf, inf, inf, 2,	 4,	  0,   3,   inf, inf],
-				[inf, inf, inf, inf, inf, 3,   0,   4,   inf],
-				[3,	  3,   inf, inf, inf, inf, 4,   0,   inf],
-				[inf, 2,   inf, 3,   inf, inf, inf, inf, 0 ]
-	);*/
-
-var A = Array(
-				[0,   2,   inf, inf, inf, inf, inf, 3, 	 inf, inf],
-				[2,   0,   4,   inf, inf, inf, inf, 3, 	 2,   inf],
-				[inf, 4,   0,   3,   inf, inf, inf, inf, inf, inf],
-				[inf, inf, 3,	0,	 5,	  2,   inf, inf, 3,	  inf],
-				[inf, inf, inf, 5,	 0,	  4,   inf, inf, inf, inf],
-				[inf, inf, inf, 2,	 4,	  0,   3,   inf, inf, inf],
-				[inf, inf, inf, inf, inf, 3,   0,   4,   inf, 1  ],
-				[3,	  3,   inf, inf, inf, inf, 4,   0,   inf, inf],
-				[inf, 2,   inf, 3,   inf, inf, inf, inf, 0,   5	 ],
-				[inf, inf, inf, inf, inf, inf, 1,	inf, 5,	  0  ]
-	);
-
-
-
 
 //  Select a node to find distance;
 	// var clicked = 1;
